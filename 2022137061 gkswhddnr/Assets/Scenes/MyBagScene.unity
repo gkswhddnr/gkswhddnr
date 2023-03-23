@@ -132,7 +132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 768171680}
-  - component: {fileID: 768171679}
+  - component: {fileID: 768171681}
+  - component: {fileID: 768171682}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -140,21 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &768171679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768171678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a775ee2dcad87a54a8e79ca948eaca12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfCubes: 10
-  CubeHeightMax: 10
-  Cubes: []
 --- !u!4 &768171680
 Transform:
   m_ObjectHideFlags: 0
@@ -163,13 +149,40 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768171678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.9292994, y: -2.833348, z: 1.507611}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &768171681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768171678}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d8b884f3e1264f898f990bad47807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scores: 00000000
+--- !u!114 &768171682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768171678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f5ff5495c8d47448fcd4d1aecb5a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionList: []
+  filter_positionList: []
 --- !u!1 &1231753920
 GameObject:
   m_ObjectHideFlags: 0
