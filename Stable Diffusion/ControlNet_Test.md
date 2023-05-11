@@ -37,3 +37,8 @@ Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 3103135391, Size: 512x512, Mode
 
 ---
 Steps: 20, Sampler: Euler a, CFG scale: 3.5, Seed: 1858023271, Size: 512x512, Model hash: e04b020012, Model: rpg_V4, Denoising strength: 0.75, ControlNet Enabled: True, ControlNet Preprocessor: none, ControlNet Model: control_v11e_sd15_ip2p [c4bb465c], ControlNet Weight: 1, ControlNet Starting Step: 0, ControlNet Ending Step: 1, ControlNet Resize Mode: Crop and Resize, ControlNet Pixel Perfect: False, ControlNet Control Mode: Balanced, ControlNet Preprocessor Parameters: "(512, 64, 64)"
+
+# OpenPose
+
+![image](https://github.com/gkswhddnr/gkswhddnr/blob/main/Stable%20Diffusion/OpenPose_Before.png?raw=true)
+![image](https://github.com/gkswhddnr/gkswhddnr/blob/main/Stable%20Diffusion/OpenPose_After.png?raw=true)
